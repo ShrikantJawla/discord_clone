@@ -4,7 +4,7 @@ import React from "react";
 const MainLayout = async ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="h-[100vh]">
-      <div className="hidden md:flex h-[100vh] w-[72px] z-30 flex-col fixed inset-y-0">
+      <div className="hidden md:flex h-[100vh] w-[72px] border-r z-30 flex-col fixed inset-y-0">
         <NavigationSidebar />
       </div>
       <main className="md:pl-[72px] h-[100vh]">{children}</main>
